@@ -151,3 +151,9 @@ button{
 .action-title{
     font-weight: bold;
 }
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7E8;
+    text-align: center;
+}

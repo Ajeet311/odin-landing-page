@@ -45,6 +45,7 @@ a,.hero-subtext,button,.img-plc-hld{
     display: flex;
     justify-content: space-between;
     margin: 56px 0px;
+    gap:32px;
 }
 
 .hero-title{
@@ -115,7 +116,7 @@ button{
 
 .quote{
     background-color: #E5E7EB;
-    padding:64px 400px;
+    padding:64px ;
     font-size: 36px;
     color: #1F2937;
 }
@@ -128,4 +129,10 @@ button{
 .writer{
     text-align: right;
     font-weight: bold;
+}
+
+.quote-content,.writer{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
